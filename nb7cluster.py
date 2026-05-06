@@ -22,9 +22,9 @@ EPS_LIST  = [0.02, 0.5, 2.0, 8.0, 12.0, 20.0]
 CONFIG = {
     0.02: dict(T=1500, dt=20, ms=2.0,  rtol=1e-5, atol=1e-7, method='RK45'),
     0.5:  dict(T=1500, dt=20, ms=2.0,  rtol=1e-5, atol=1e-7, method='RK45'),
-    2.0:  dict(T=75,   dt=1,  ms=0.5,  rtol=1e-5, atol=1e-7, method='Radau'),
-    8.0:  dict(T=75,   dt=1,  ms=0.5,  rtol=1e-6, atol=1e-8, method='Radau'),
-    12.0: dict(T=100,  dt=1,  ms=0.5,  rtol=1e-6, atol=1e-8, method='Radau'),
+    2.0:  dict(T=150,   dt=1,  ms=0.5,  rtol=1e-5, atol=1e-7, method='Radau'),
+    8.0:  dict(T=150,   dt=1,  ms=0.5,  rtol=1e-6, atol=1e-8, method='Radau'),
+    12.0: dict(T=150,  dt=1,  ms=0.5,  rtol=1e-6, atol=1e-8, method='Radau'),
     20.0: dict(T=1000, dt=5,  ms=0.5,  rtol=1e-6, atol=1e-8, method='Radau'),
 }
 EPS0 = 1e-8
